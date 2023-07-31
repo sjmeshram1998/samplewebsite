@@ -1,0 +1,83 @@
+html,body{
+        width: 100%;
+        height: 100%;
+    }
+    body{ 
+        background-image: url('1.jpg'); background-repeat: no-repeat; background-size: cover;  background-position: center; background-attachment: fixed;
+    }
+   .colorWhite{
+    color: white;
+    line-height: 35px;
+    font-size: 18px;
+   }
+   .colorBlack{
+    line-height: 35px;
+    color: #000;
+    font-size: 18px;
+   }
+
+    .bluebg{
+        background-color: rgba(0, 122, 255, 1); padding-top: 5%; padding-bottom: 5%;
+    } 
+    .whitebg{
+        background-color: #fcfcfcd9; padding-top: 5%; padding-bottom: 5%;
+    }
+   .navcontainer{
+    padding-top: 9%; padding-bottom: 5%;
+   }
+   .nobg{
+    padding-top: 5%; padding-bottom: 5%;
+    
+   }
+   .bgsky{
+    background-color: #15B4FF;
+   }
+   .brblack{
+    padding-top: 10px;
+    border-top: 1px dashed #000;
+   }
+   .card{
+    border-radius: 0px; margin: 10px;
+   }
+   .card2{
+    background-color: #cdcdcd;
+   padding: 10px;
+   }
+   
+   h2{
+     font-size: 60px; font-weight: 600;color: white; 
+     }
+     #heading{
+     color: white; font-size: 80px; font-weight: 600; padding-top: 10%;
+     }
+     #heading1  {
+     color: white; font-size: 60px; font-weight: 600; 
+     }
+     #heading2 {
+        color: white;
+     }
+     /* .zoomin img {
+        height: 200px;
+        width: 200px;
+        -webkit-transition: all 2s ease;
+        -moz-transition: all 2s ease;
+        -ms-transition: all 2s ease;
+        transition: all 2s ease;
+      }
+      .zoomin img:hover {
+        width: 300px;
+        height: 300px;
+      } */
+      .zoom {
+       
+        transition: transform .2s; /* Animation */
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+      }
+      
+      .zoom:hover {
+        transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+
+  
